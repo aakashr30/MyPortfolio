@@ -211,6 +211,11 @@ span {
 .home-img {
   position: relative;
 }
+@media (max-width: 768px) {
+  .home-img::before {
+    display: none;
+  }
+}
 
 .home-img::before {
   content: "";
